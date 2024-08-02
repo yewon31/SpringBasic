@@ -9,28 +9,20 @@
 
 	<!-- 핸들러 맵핑, 핸들러 어댑터, 어노테이션 활성화 -->
 	<annotation-driven />
-	
+
 	<!-- css,js 같은 정적파일 맵핑 - resources/ 경로로 요청이 들어오면 resources폴더로 다이렉트하게 연결 -->
 	<resources mapping="/resources/**" location="/resources/" />
-	
+
 	<!-- 뷰리졸버 - 컨트롤러에서 리턴되는 값을 디스패쳐서블릿이 뷰의 경로를 합성하는데 사용합니다. -->
 	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<beans:property name="prefix" value="/WEB-INF/view/" />
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 
-	<!-- base-package안에 들어있는 @Controller, @Service, @Respository, @Componenet 클래스를 bean자동 생성  -->
+	<!-- base-package안에 들어있는 @Controller, @Service, @Respository, @Componenet 클래스를 bean자동 생성 -->
 	<context:component-scan base-package="com.simple.basic.*" />
 
+	<!-- 서비스 영역을 빈으로 생성 -->
+	<!-- <beans:bean id="scoreService" class="com.simple.basic.service.score.ScoreServiceImpl" /> -->
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 </beans:beans>
