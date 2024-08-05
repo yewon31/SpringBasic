@@ -13,5 +13,6 @@
 	<a href="scoreList">목록페이지</a>
 	<a href="scoreRegist">점수등록</a>
 	
+	
 </body>
 </html>

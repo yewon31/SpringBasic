@@ -8,7 +8,10 @@
 </head>
 <body>
 	
-	${ result }
+	
+	리디렉션 받은 화면
+	${msg }
+	
 	
 </body>
 </html>

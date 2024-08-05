@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,17 +7,23 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	
 	<h3>res_ex01</h3>
-
+	
+	
 	<a href="res_ex02">ex02이동</a>
 	<a href="res_ex03?info=홍길동">ex03이동</a>
-
-	<form action="res_ex04">
-
-		아이디:<input type="text" name="id"> 비밀번호:<input type="text"
-			name="pw"> <input type="submit">
+	
+	<form action="res_ex04" >
+	
+		아이디:<input type="text" name="id">
+		비밀번호:<input type="text" name="pw">
+		<input type="submit">
 	</form>
-
+	
+	
+	
+	
+	
 </body>
 </html>

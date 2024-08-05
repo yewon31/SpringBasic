@@ -10,6 +10,5 @@
 
 	<h3>ex03화면</h3>
 	${info }
-	
 </body>
 </html>

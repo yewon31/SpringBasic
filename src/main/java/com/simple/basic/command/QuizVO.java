@@ -6,7 +6,10 @@ public class QuizVO {
 	private String pw;
 	private String name;
 	private String email;
-
+	
+	
+	
+	
 	@Override
 	public String toString() {
 		return "QuizVO [id=" + id + ", pw=" + pw + ", name=" + name + ", email=" + email + "]";
@@ -54,5 +57,8 @@ public class QuizVO {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
+	
+	
+	
+	
 }

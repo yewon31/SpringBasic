@@ -8,7 +8,7 @@ public class HomeController {
 
 	//핸들러 어댑터와 연결
 	@RequestMapping("/home") 
-	public String home() {
+	public String home() { 
 		return "home"; //WEF-INF/views/home.jsp
 	}
 }
